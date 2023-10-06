@@ -1,0 +1,121 @@
+Nº,HORA,Empresa,Salida,Destino,Numero
+1,0:00,Expreso Paraguay SA,Encarnación,Asunción,0972294314
+2,0:00,El Tigre SRL,Encarnación,Ciudad del Este,071202412
+3,0:25,Beato Roque González SRL,Encarnación,Asunción,071204580
+4,0:30,San Juan SRL,Encarnación,Ciudad del Este,071203113
+5,1:30,Nuestra Señora de la  Encarnación SRL,Encarnación,Ciudad del Este,071203948
+6,2:00,Expreso Paraguay SA,Encarnación,Ciudad del Este,0972294314
+7,2:30,San Juan SRL,Encarnación,Asunción,071203113
+8,3:00,Itapúa Poty SRL,Encarnación,Ciudad del Este,0985766499
+9,3:30,Crucero del Sur SRL,Encarnación,Ciudad del Este,0985766499
+10,4:20,El Tigre SRL,Encarnación,Ciudad del Este,071202412
+11,4:30,Guaireña Transporte y Turismo SRL,Encarnación,Villarrica,071204850
+12,4:30,Río Paraguay SRL,Encarnación,María Auxiliadora,071203113
+13,5:00,Crucero del Sur SRL,Encarnación,Ciudad del Este,0985766499
+14,5:20,Río Paraguay SRL,Encarnación,Asunción,071203113
+15,5:30,La Yuteña SRL,Encarnación,Villarrica,071204580
+16,6:00,Itapúa Poty SRL,Encarnación,Ciudad del Este,0985766499
+17,6:00,La Frameña  SRL,Encarnación,La Paz,0985702916
+18,6:00,La Frameña  SRL,Encarnación,Fram,0985702916
+19,6:15,El Tigre SRL,Encarnación,Ciudad del Este,071202412
+20,6:15,Flecha De Oro SRL,Encarnación,Asunción,0991939692
+21,7:00,Río Paraguay SRL,Encarnación,Asunción,071203113
+22,7:00,Tebicuary SRL,Encarnación,Yuty,071204075
+23,7:30,Yacyretá SA,Encarnación,Asunción,0985162613
+24,7:30,Expreso Paraguay SA,Encarnación,Ciudad del Este,0972294314
+25,7:40,La Frameña  SRL,Encarnación,Coronel Bogado,0985702916
+26,8:00,Río Paraguay SRL,Encarnación,Asunción,0971203113
+27,8:00,Nuestra Señora de la  Encarnación SRL,Encarnación,Ciudad del Este,0971203948
+28,8:00,Pastoreo SRL,Encarnación,Perlita,071204580
+29,8:00,Beato Roque González SRL,Encarnación,Mayor Otaño,071204580
+30,8:15,Tebicuary SRL,Encarnación,Yuty,071204075
+31,8:30,La Sancosmeña SRL,Encarnación,San Cosme y Damián,071204075
+32,8:30,La Yuteña SRL,Encarnación,Villarrica,071204580
+33,8:30,El Tigre SRL,Encarnación,Ciudad del Este,071202412
+34,8:40,La Frameña  SRL,Encarnación,La Paz,0985702916
+35,9:00,Crucero del Sur SRL,Encarnación,Ciudad del Este,0985766499
+36,9:00,Río Paraguay SRL,Encarnación,Asunción,071203113
+37,9:15,La Sancosmeña SRL,Encarnación,San Cosme y Damián,071204075
+38,9:30,Ñeembucú SRL,Encarnación,Pilar,071204580
+39,9:30,Expreso Paraguay SA,Encarnación,Asunción,0972294314
+40,9:35,Victoria de Boquerón SRL,Encarnación,General  Delgado,071204075
+41,9:40,Ortega SA,Encarnación,Ciudad del Este,071202412
+42,9:45,La Frameña  SRL,Encarnación,Fram,0985702916
+43,9:55,Nuestra Señora de la  Encarnación SRL,Encarnación,Ciudad del Este,071203948
+44,10:00,Flecha De Oro SRL,Encarnación,Asunción,0991939692
+45,10:20,La Frameña  SRL,Encarnación,La Paz,0985702916
+46,10:20,Tebicuary SRL,Encarnación,San Pedro del Paraná,071204075
+47,10:25,Itapúa Poty SRL,Encarnación,Ciudad del Este,0985766499
+48,10:30,Victoria de Boquerón SRL,Encarnación,Santa Rosa,071204075
+49,11:00,La Frameña  SRL,Encarnación,Fram,0985702916
+50,11:00,Victoria de Boquerón SRL,Encarnación,Isla Alta,071204075
+51,11:00,Beato Roque González SRL,Encarnación,Mayor Otaño,071204580
+52,11:00,Flecha De Oro SRL,Encarnación,Asunción,099939692
+53,11:15,La Frameña  SRL,Encarnación,La Paz,0985702916
+54,11:30,Río Paraguay SRL,Encarnación,Asunción,071203113
+55,11:30,Nuestra Señora de la  Encarnación SRL,Encarnación,Ciudad del Este,071203948
+56,11:30,Ortega SA,Encarnación,San Ignacio Misiones,071202412
+57,11:30,Pastoreo SRL,Encarnación,Perlita,071204580
+58,11:40,Tebicuary SRL,Encarnación,San Pedro Del Paraná,071204075
+59,11:45,Pastoreo SRL,Encarnación,Pirapo´i,071204580
+60,12:10,Ñeembucú SRL,Encarnación,Ciudad del Este,071204580
+61,12:15,Río Paraguay SRL,Encarnación,Asunción,071203113
+62,12:15,Stella Marys SRL,Encarnación,Puerto Trinidad,071202412
+63,12:30,Yacyretá SA,Encarnación,Ayolas,0895162613
+64,12:40,Crucero del Sur SRL,Encarnación,Ciudad del Este,0985766499
+65,12:45,Expreso Paraguay SA,Encarnación,Asunción,0972294314
+66,12:50,La Frameña  SRL,Encarnación,Fram,0985702916
+67,13:00,La Frameña  SRL,Encarnación,La Paz,0985702916
+68,13:00,Tebicuary SRL,Encarnación,Yuty,071204075
+69,13:00,Juan E. Olery SA,Encarnación,Ciudad del Este,071202412
+70,13:00,Nuestra Señora de la  Encarnación SRL,Encarnación,Asunción,071203948
+71,13:10,Juan E. Olery SA,Encarnación,Ciudad del Este,071202412
+72,13:15,Victoria de Boquerón SRL,Encarnación,General Delgado,071204075
+73,13:15,Beato Roque González SRL,Encarnación,Mayor Otaño,071204580
+74,13:20,Crucero del Norte SRL,Encarnación,Buenos Aires,0972294314
+75,13:30,Ortega SA,Encarnación,San Juan Misiones,071202412
+76,13:30,Expreso Paraguay SA,Encarnación,Ciudad del Este,0972294314
+77,13:40,San Juan SRL,Encarnación,Mayor Otaño,071203113
+78,14:00,Río Paraguay SRL,Encarnación,Asunción,071203113
+79,14:00,Tebicuary SRL,Encarnación,Yuty,071204075
+80,14:10,El Tigre SRL,Encarnación,Ciudad del Este,071202412
+81,14:15,San Juan SRL.,Encarnación,San Juan Misiones,071203113
+82,14:30,Expreso Rio Parana SA,Encarnación,Buenos Aires,071202606
+83,14:35,La Sancosmeña SRL,Encarnación,San Cosme y Damián,071204075
+84,14:55,La Frameña  SRL,Encarnación,Fram,0985702916
+85,15:00,Mcal. López SRL,Encarnación,San Juan Misiones,071204075
+86,15:00,Expreso Paraguay SA,Encarnación,Asunción,0972294314
+87,15:00,Guaireña Transporte y Turismo SRL,Encarnación,Villarrica,071204850
+88,15:20,Tebicuary SRL,Encarnación,San Pedro del Paraná,071204075
+89,15:30,Río Paraguay SRL,Encarnación,Asunción,071203113
+90,15:30,El Tigre SRL,Encarnación,Ciudad del Este,071202412
+91,16:00,Mcal. López SRL,Encarnación,San Juan Misiones,071204075
+92,16:00,La Frameña  SRL,Encarnación,Fram,0985702916
+93,16:00,Ciudad de Pilar SRL,Encarnación,Pilar,0991939692
+94,16:00,Stella Marys SRL,Encarnación,Nueva Alborada,071202412
+95,16:00,Guaireña Transporte y Turismo SRL,Encarnación,Buenos Aires,071204850
+96,16:15,La Frameña  SRL,Encarnación,La Paz,0985702916
+97,16:15,Guaireña Transporte y Turismo SRL,Encarnación,Buenos Aires,071204850
+98,16:30,Victoria de Boquerón SRL,Encarnación,General Delgado,071204075
+99,16:45,Tebicuary SRL,Encarnación,San Pedro del Paraná,071204075
+100,17:00,Flecha De Oro SRL,Encarnación,Asunción,0991939692
+101,17:00,Beato Roque González SRL,Encarnación,Bonanza,071204580
+102,17:30,Victoria de Boquerón SRL,Encarnación,General  Delgado,071204075
+103,17:50,La Frameña  SRL,Encarnación,Coronel Bogado,0985702916
+104,18:00,La Yuteña SRL,Encarnación,Villarrica,071204580
+105,18:00,Nuestra Señora de la  Encarnación SRL,Encarnación,Ciudad del Este,071203948
+106,18:00,Pastoreo SRL,Encarnación,Jesús,071204580
+107,18:15,El Tigre SRL,Encarnación,San Cosme y Damián,071202412
+108,18:30,Expreso Paraguay SA,Encarnación,Asunción,0972294314
+109,18:30,Victoria de Boquerón SRL,Encarnación,Santa Rosa Misiones,071204075
+110,18:30,Expreso Paraguay SA,Encarnación,Asunción,0972294314
+111,19:00,Río Paraguay SRL,Encarnación,Asunción,071203113
+112,19:05,Río Paraguay SRL,Encarnación,María Auxiliadora,071203113
+113,20:00,La Frameña  SRL,Encarnación,Fram,0985702916
+114,20:00,La Frameña  SRL,Encarnación,La Paz,0985702916
+115,21:00,Flecha De Oro SRL,Encarnación,Asunción,0991939692
+116,22:00,Río Paraguay SRL,Encarnación,Asunción,071203113
+117,23:30,Río Paraguay SRL,Encarnación,Asunción,071203113
+118,23:40,Nuestra Señora De La Asunción CISA,Encarnación,Asunción,071204653
+119,23:45,Expreso Paraguay SA,Encarnación,Asunción,0972204314
+120,23:50,Río Paraguay SRL,Encarnación,Asunción,071203113

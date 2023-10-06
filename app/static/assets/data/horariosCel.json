@@ -1,0 +1,196 @@
+{
+  "Beato Roque González SRL": [
+    { "Destino": "Asunción", "HORA": "0:25", "Numero": "71204580" },
+    { "Destino": "Mayor Otaño", "HORA": "8:00", "Numero": "71204580" },
+    { "Destino": "Mayor Otaño", "HORA": "11:00", "Numero": "71204580" },
+    { "Destino": "Mayor Otaño", "HORA": "13:15", "Numero": "71204580" },
+    { "Destino": "Bonanza", "HORA": "17:00", "Numero": "71204580" }
+  ],
+  "Ciudad de Pilar SRL": [
+    { "Destino": "Pilar", "HORA": "16:00", "Numero": "991939692" }
+  ],
+  "Crucero del Norte SRL": [
+    { "Destino": "Buenos Aires", "HORA": "13:20", "Numero": "972294314" }
+  ],
+  "Crucero del Sur SRL": [
+    { "Destino": "Ciudad del Este", "HORA": "3:30", "Numero": "985766499" },
+    { "Destino": "Ciudad del Este", "HORA": "5:00", "Numero": "985766499" },
+    { "Destino": "Ciudad del Este", "HORA": "9:00", "Numero": "985766499" },
+    { "Destino": "Ciudad del Este", "HORA": "12:40", "Numero": "985766499" }
+  ],
+  "El Tigre SRL": [
+    { "Destino": "Ciudad del Este", "HORA": "0:00", "Numero": "71202412" },
+    { "Destino": "Ciudad del Este", "HORA": "4:20", "Numero": "71202412" },
+    { "Destino": "Ciudad del Este", "HORA": "6:15", "Numero": "71202412" },
+    { "Destino": "Ciudad del Este", "HORA": "8:30", "Numero": "71202412" },
+    { "Destino": "Ciudad del Este", "HORA": "14:10", "Numero": "71202412" },
+    { "Destino": "Ciudad del Este", "HORA": "15:30", "Numero": "71202412" },
+    { "Destino": "San Cosme y Damián", "HORA": "18:15", "Numero": "71202412" }
+  ],
+  "Expreso Paraguay SA": [
+    { "Destino": "Asunción", "HORA": "0:00", "Numero": "972294314" },
+    { "Destino": "Ciudad del Este", "HORA": "2:00", "Numero": "972294314" },
+    { "Destino": "Ciudad del Este", "HORA": "7:30", "Numero": "972294314" },
+    { "Destino": "Asunción", "HORA": "9:30", "Numero": "972294314" },
+    { "Destino": "Asunción", "HORA": "12:45", "Numero": "972294314" },
+    { "Destino": "Ciudad del Este", "HORA": "13:30", "Numero": "972294314" },
+    { "Destino": "Asunción", "HORA": "15:00", "Numero": "972294314" },
+    { "Destino": "Asunción", "HORA": "18:30", "Numero": "972294314" },
+    { "Destino": "Asunción", "HORA": "18:30", "Numero": "972294314" },
+    { "Destino": "Asunción", "HORA": "23:45", "Numero": "972204314" }
+  ],
+  "Expreso Rio Parana SA": [
+    { "Destino": "Buenos Aires", "HORA": "14:30", "Numero": "71202606" }
+  ],
+  "Flecha De Oro SRL": [
+    { "Destino": "Asunción", "HORA": "6:15", "Numero": "991939692" },
+    { "Destino": "Asunción", "HORA": "10:00", "Numero": "991939692" },
+    { "Destino": "Asunción", "HORA": "11:00", "Numero": "99939692" },
+    { "Destino": "Asunción", "HORA": "17:00", "Numero": "991939692" },
+    { "Destino": "Asunción", "HORA": "21:00", "Numero": "991939692" }
+  ],
+  "Guaireña Transporte y Turismo SRL": [
+    { "Destino": "Villarrica", "HORA": "4:30", "Numero": "71204850" },
+    { "Destino": "Villarrica", "HORA": "15:00", "Numero": "71204850" },
+    { "Destino": "Buenos Aires", "HORA": "16:00", "Numero": "71204850" },
+    { "Destino": "Buenos Aires", "HORA": "16:15", "Numero": "71204850" }
+  ],
+  "Itapúa Poty SRL": [
+    { "Destino": "Ciudad del Este", "HORA": "3:00", "Numero": "985766499" },
+    { "Destino": "Ciudad del Este", "HORA": "6:00", "Numero": "985766499" },
+    { "Destino": "Ciudad del Este", "HORA": "10:25", "Numero": "985766499" }
+  ],
+  "Juan E. Olery SA": [
+    { "Destino": "Ciudad del Este", "HORA": "13:00", "Numero": "71202412" },
+    { "Destino": "Ciudad del Este", "HORA": "13:10", "Numero": "71202412" }
+  ],
+  "La Frameña  SRL": [
+    { "Destino": "La Paz", "HORA": "6:00", "Numero": "985702916" },
+    { "Destino": "Fram", "HORA": "6:00", "Numero": "985702916" },
+    { "Destino": "Coronel Bogado", "HORA": "7:40", "Numero": "985702916" },
+    { "Destino": "La Paz", "HORA": "8:40", "Numero": "985702916" },
+    { "Destino": "Fram", "HORA": "9:45", "Numero": "985702916" },
+    { "Destino": "La Paz", "HORA": "10:20", "Numero": "985702916" },
+    { "Destino": "Fram", "HORA": "11:00", "Numero": "985702916" },
+    { "Destino": "La Paz", "HORA": "11:15", "Numero": "985702916" },
+    { "Destino": "Fram", "HORA": "12:50", "Numero": "985702916" },
+    { "Destino": "La Paz", "HORA": "13:00", "Numero": "985702916" },
+    { "Destino": "Fram", "HORA": "14:55", "Numero": "985702916" },
+    { "Destino": "Fram", "HORA": "16:00", "Numero": "985702916" },
+    { "Destino": "La Paz", "HORA": "16:15", "Numero": "985702916" },
+    { "Destino": "Coronel Bogado", "HORA": "17:50", "Numero": "985702916" },
+    { "Destino": "Fram", "HORA": "20:00", "Numero": "985702916" },
+    { "Destino": "La Paz", "HORA": "20:00", "Numero": "985702916" }
+  ],
+  "La Sancosmeña SRL": [
+    { "Destino": "San Cosme y Damián", "HORA": "8:30", "Numero": "71204075" },
+    { "Destino": "San Cosme y Damián", "HORA": "9:15", "Numero": "71204075" },
+    { "Destino": "San Cosme y Damián", "HORA": "14:35", "Numero": "71204075" }
+  ],
+  "La Yuteña SRL": [
+    { "Destino": "Villarrica", "HORA": "5:30", "Numero": "71204580" },
+    { "Destino": "Villarrica", "HORA": "8:30", "Numero": "71204580" },
+    { "Destino": "Villarrica", "HORA": "18:00", "Numero": "71204580" }
+  ],
+  "Mcal. López SRL": [
+    { "Destino": "San Juan Misiones", "HORA": "15:00", "Numero": "71204075" },
+    { "Destino": "San Juan Misiones", "HORA": "16:00", "Numero": "71204075" }
+  ],
+  "Nuestra Señora de la  Encarnación SRL": [
+    { "Destino": "Ciudad del Este", "HORA": "1:30", "Numero": "71203948" },
+    { "Destino": "Ciudad del Este", "HORA": "8:00", "Numero": "71203948" },
+    { "Destino": "Ciudad del Este", "HORA": "9:55", "Numero": "71203948" },
+    { "Destino": "Ciudad del Este", "HORA": "11:30", "Numero": "71203948" },
+    { "Destino": "Asunción", "HORA": "13:00", "Numero": "71203948" },
+    { "Destino": "Ciudad del Este", "HORA": "18:00", "Numero": "71203948" }
+  ],
+  "Nuestra Señora De La Asunción CISA": [
+    { "Destino": "Asunción", "HORA": "23:40", "Numero": "71204653" }
+  ],
+  "Ñeembucú SRL": [
+    { "Destino": "Pilar", "HORA": "9:30", "Numero": "71204580" },
+    { "Destino": "Ciudad del Este", "HORA": "12:10", "Numero": "71204580" }
+  ],
+  "Ortega SA": [
+    { "Destino": "Ciudad del Este", "HORA": "9:40", "Numero": "71202412" },
+    {
+      "Destino": "San Ignacio Misiones",
+      "HORA": "11:30",
+      "Numero": "71202412"
+    },
+    { "Destino": "San Juan Misiones", "HORA": "13:30", "Numero": "71202412" }
+  ],
+  "Pastoreo SRL": [
+    { "Destino": "Perlita", "HORA": "8:00", "Numero": "71204580" },
+    { "Destino": "Perlita", "HORA": "11:30", "Numero": "71204580" },
+    { "Destino": "Pirapo´i", "HORA": "11:45", "Numero": "71204580" },
+    { "Destino": "Jesús", "HORA": "18:00", "Numero": "71204580" }
+  ],
+  "Río Paraguay SRL": [
+    { "Destino": "María Auxiliadora", "HORA": "4:30", "Numero": "71203113" },
+    { "Destino": "Asunción", "HORA": "5:20", "Numero": "71203113" },
+    { "Destino": "Asunción", "HORA": "7:00", "Numero": "71203113" },
+    { "Destino": "Asunción", "HORA": "8:00", "Numero": "71203113" },
+    { "Destino": "Asunción", "HORA": "9:00", "Numero": "71203113" },
+    { "Destino": "Asunción", "HORA": "11:30", "Numero": "71203113" },
+    { "Destino": "Asunción", "HORA": "12:15", "Numero": "71203113" },
+    { "Destino": "Asunción", "HORA": "14:00", "Numero": "71203113" },
+    { "Destino": "Asunción", "HORA": "15:30", "Numero": "71203113" },
+    { "Destino": "Asunción", "HORA": "19:00", "Numero": "71203113" },
+    { "Destino": "María Auxiliadora", "HORA": "19:05", "Numero": "71203113" },
+    { "Destino": "Asunción", "HORA": "22:00", "Numero": "71203113" },
+    { "Destino": "Asunción", "HORA": "23:30", "Numero": "71203113" },
+    { "Destino": "Asunción", "HORA": "23:50", "Numero": "71203113" }
+  ],
+  "San Juan SRL": [
+    { "Destino": "Ciudad del Este", "HORA": "0:30", "Numero": "71203113" },
+    { "Destino": "Asunción", "HORA": "2:30", "Numero": "71203113" },
+    { "Destino": "Mayor Otaño", "HORA": "13:40", "Numero": "71203113" }
+  ],
+  "San Juan SRL.": [
+    { "Destino": "San Juan Misiones", "HORA": "14:15", "Numero": "71203113" }
+  ],
+  "Stella Marys SRL": [
+    { "Destino": "Puerto Trinidad", "HORA": "12:15", "Numero": "71202412" },
+    { "Destino": "Nueva Alborada", "HORA": "16:00", "Numero": "71202412" }
+  ],
+  "Tebicuary SRL": [
+    { "Destino": "Yuty", "HORA": "7:00", "Numero": "71204075" },
+    { "Destino": "Yuty", "HORA": "8:15", "Numero": "71204075" },
+    {
+      "Destino": "San Pedro del Paraná",
+      "HORA": "10:20",
+      "Numero": "71204075"
+    },
+    {
+      "Destino": "San Pedro Del Paraná",
+      "HORA": "11:40",
+      "Numero": "71204075"
+    },
+    { "Destino": "Yuty", "HORA": "13:00", "Numero": "71204075" },
+    { "Destino": "Yuty", "HORA": "14:00", "Numero": "71204075" },
+    {
+      "Destino": "San Pedro del Paraná",
+      "HORA": "15:20",
+      "Numero": "71204075"
+    },
+    {
+      "Destino": "San Pedro del Paraná",
+      "HORA": "16:45",
+      "Numero": "71204075"
+    }
+  ],
+  "Victoria de Boquerón SRL": [
+    { "Destino": "General  Delgado", "HORA": "9:35", "Numero": "71204075" },
+    { "Destino": "Santa Rosa", "HORA": "10:30", "Numero": "71204075" },
+    { "Destino": "Isla Alta", "HORA": "11:00", "Numero": "71204075" },
+    { "Destino": "General Delgado", "HORA": "13:15", "Numero": "71204075" },
+    { "Destino": "General Delgado", "HORA": "16:30", "Numero": "71204075" },
+    { "Destino": "General  Delgado", "HORA": "17:30", "Numero": "71204075" },
+    { "Destino": "Santa Rosa Misiones", "HORA": "18:30", "Numero": "71204075" }
+  ],
+  "Yacyretá SA": [
+    { "Destino": "Asunción", "HORA": "7:30", "Numero": "985162613" },
+    { "Destino": "Ayolas", "HORA": "12:30", "Numero": "985162613" }
+  ]
+}

@@ -1,0 +1,118 @@
+<section class="about-section text-center" id="about">
+    <div class="container px-4 px-lg-5">
+      <div class="row gx-4 gx-lg-5 justify-content-center">
+        <div class="col-lg-8">
+          <h2 class="text-white mb-4">Selecciona la empresa</h2>
+          <h4 class="text-white mb-3">Todos los buses salen desde Encarnación</h4>
+
+          <!-- agregar numero de empresa -->
+
+          <div class="container-fluid bg-light" id="Numero"></div>
+          <!--AGREGAR FORMULARIO PARA BUSCAR EMPRESAS Y VER HORARIO-->
+          <div class="input-group mb-3">
+            <label class="input-group-text" for="inputGroupSelect01">Opciones</label>
+            <select class="form-select" id="inputGroupSelect01">
+              <option selected="0" value="0">Eliga una Empresa</option>
+              <option value="Beato Roque González SRL">Beato Roque González SRL</option>
+              <option value="Ciudad de Pilar SRL">Ciudad de Pilar SRL</option>
+              <option value="Crucero del Norte SRL">Crucero del Norte SRL</option>
+              <option value="Crucero del Sur SRL">Crucero del Sur SRL</option>
+              <option value="El Tigre SRL">El Tigre SRL</option>
+              <option value="Expreso Paraguay SA">Expreso Paraguay SA</option>
+              <option value="Expreso Rio Parana SA">Expreso Rio Parana SA</option>
+              <option value="Flecha De Oro SRL">Flecha De Oro SRL</option>
+              <option value="Guaireña Transporte y Turismo SRL">Guaireña Transporte y Turismo SRL</option>
+              <option value="Itapúa Poty SRL">Itapúa Poty SRL</option>
+              <option value="Juan E. Olery SA">Juan E. Olery SA</option>
+              <option value="La Frameña  SRL">La Frameña SRL</option>
+              <option value="La Sancosmeña SRL">La Sancosmeña SRL</option>
+              <option value="La Yuteña SRL">La Yuteña SRL</option>
+              <option value="Mcal. López SRL">Mcal. López SRL</option>
+              <option value="Nuestra Señora de la  Encarnación SRL">Nuestra Señora de la Encarnación SRL</option>
+              <option value="Nuestra Señora De La Asunción CISA">Nuestra Señora De La Asunción CISA</option>
+              <option value="Ñeembucú SRL">Ñeembucú SRL</option>
+              <option value="Ortega SA">Ortega SA</option>
+              <option value="Pastoreo SRL">Pastoreo SRL</option>
+              <option value="Río Paraguay SRL">Río Paraguay SRL</option>
+              <option value="San Juan SRL">San Juan SRL</option>
+              <option value="Stella Marys SRL">Stella Marys SRL</option>
+              <option value="Tebicuary SRL">Tebicuary SRL</option>
+              <option value="Victoria de Boquerón SRL">Victoria de Boquerón SRL</option>
+              <option value="Yacyretá SA">Yacyretá SA</option>
+            </select>
+          </div>
+          <div class="container-fluid mb-2" id="tarjeta">
+            <div class="card h-50">
+              <div class="card-body text-center">
+                <h4 class="text-uppercase">Telefono</h4>
+                <hr class="my-4 mx-auto" />
+                <div class="small text-black-50" id="numero">
+
+                </div>
+              </div>
+              <div class="container bg-light rounded" id="tablaHorario">
+                <table class="table" id="tabla">
+                  <thead>
+                    <tr>
+                      <th scope="col" id="destino">Destino</th>
+                      <th scope="col" id="salida">Hora</th>
+                    </tr>
+                  </thead>
+                  <tbody id="tbody">
+    
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <img id="miImagen" class="img-fluid" src="{{ url_for('static',filename='assets/img/bus/ETG.png') }}" alt="..." />
+    </div>
+  </section>
+  <!-- SERVICIOS-->
+ 
+
+  <!-- Contacto-->
+  <section class="contact-section bg-black" id="final">
+    <div class="container px-4 px-lg-5">
+      <div class="row gx-4 gx-lg-5">
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-map-marked-alt svgc mb-2"></i>
+              <h4 class="text-uppercase m-0">Dirección</h4>
+              <hr class="my-4 mx-auto" />
+              <div class="small text-black-50">
+                General Cabañas, Carlos Antonio Lopez
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-envelope svgc mb-2"></i>
+              <h4 class="text-uppercase m-0">Correo</h4>
+              <hr class="my-4 mx-auto" />
+              <div class="small text-black-50">
+                <a href="mailto:terminal@encarnacion.com.py">terminal@encarnacion.com.py</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-mobile-alt svgc mb-2"></i>
+              <h4 class="text-uppercase m-0">Telefono</h4>
+              <hr class="my-4 mx-auto" />
+              <div class="small text-black-50">+595 071 20001</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </section>
