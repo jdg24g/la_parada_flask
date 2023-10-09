@@ -58,7 +58,7 @@ def register():
         }
 
         # insert user data into database
-        User.create_user(data)
+        User.create(data)
 
     return redirect(url_for("index"))
 

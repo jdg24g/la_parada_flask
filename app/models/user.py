@@ -1,4 +1,4 @@
-from config.connect_to_mysql import connect_to_mysql
+from app.config.connect_to_mysql import connect_to_mysql
 
 class User:
     """
