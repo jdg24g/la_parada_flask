@@ -19,10 +19,10 @@ class MySQLConnection:
         """
 
         connection = pymysql.connect(
-            host=os.getenv("DB_HOST"),
-            user=os.getenv("DB_USER"),
-            password=str(os.getenv("DB_PASSWORD")),
-            db=os.getenv("DB_NAME"),
+            host="localhost",
+            user="admin",
+            password="admin",
+            db="bus_schedule",
             charset="utf8mb4",
             cursorclass=pymysql.cursors.DictCursor,
             autocommit=True,
