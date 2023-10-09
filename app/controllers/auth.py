@@ -56,11 +56,11 @@ def register():
             "email": email,
             "password": hashed_password,
         }
-
+        print(data)
         # insert user data into database
         User.create(data)
 
-    return redirect(url_for("index"))
+    return redirect(url_for("admin"))
 
 
 @app.route("/login/", methods=["GET", "POST"])
@@ -69,14 +69,23 @@ def login():
         email = request.form["email"]
         password = request.form["password"]
         # check if email exists in database
-        user = User.get_by_email(email)
+        data = {"email": email}
+        user = User.get_by_email(data)
+        print(user.first_name)
         # check if password is correct
-        if user and bcrypt.check_password_hash(user.password, password):
-            session["user"] = user
-            return redirect(url_for("index"))
+        if user == None:
+            return redirect(url_for("admin"))
+        if email == user.email and bcrypt.check_password_hash(user.password, password):
+            session['user'] = {
+            "id": user.id,
+            "first_name": user.first_name,
+            "last_name": user.last_name,
+            "email": user.email,
+            }
+            return redirect(url_for("dashboard"))
         else:
-            return redirect(url_for("index"))
-    return redirect(url_for("index"))
+            return redirect(url_for("admin"))
+    return redirect(url_for("admin"))
 
 
 @app.route("/logout/")
@@ -85,3 +94,18 @@ def logout():
         return redirect(url_for("index"))
     session.clear()
     return redirect(url_for("index"))
+
+@app.route("/admin/")
+def admin():
+    #user in session redirect to dashboard
+    if "user" in session:
+        return redirect(url_for("dashboard"))
+    
+    return render_template("auth/index.html")
+
+
+@app.route("/dashboard/")
+def dashboard():
+    if "user" not in session:
+        return redirect(url_for("admin"))
+    return render_template("dashboard/index.html")

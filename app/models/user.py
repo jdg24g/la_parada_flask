@@ -38,7 +38,7 @@ class User:
             dict: Un diccionario que contiene el resultado de la operación en la base de datos.
         """
         query = "INSERT INTO users (first_name, last_name, email, password) VALUES (%(first_name)s, %(last_name)s, %(email)s, %(password)s);"
-        results = connect_to_mysql(query, data)
+        results = connect_to_mysql().query_db(query, data)
         return results
 
     @classmethod
@@ -53,7 +53,7 @@ class User:
             dict: Un diccionario que contiene el resultado de la operación en la base de datos.
         """
         query = "UPDATE users SET first_name = %(first_name)s, last_name = %(last_name)s, email = %(email)s, password = %(password)s WHERE id = %(id)s;"
-        results = connect_to_mysql(query, data)
+        results = connect_to_mysql().query_db(query, data)
         return results
 
     @classmethod
@@ -68,7 +68,7 @@ class User:
             dict: Un diccionario que contiene el resultado de la operación en la base de datos.
         """
         query = "DELETE FROM users WHERE id = %(id)s;"
-        results = connect_to_mysql(query, data)
+        results = connect_to_mysql().query_db(query, data)
         return results
 
     @classmethod
@@ -83,7 +83,7 @@ class User:
             User or None: Una instancia de User si se encuentra el usuario, de lo contrario, None.
         """
         query = "SELECT * FROM users WHERE email = %(email)s;"
-        results = connect_to_mysql(query, data)
+        results = connect_to_mysql().query_db(query, data)
         if results:
             return cls(results[0])
         return None
@@ -97,7 +97,7 @@ class User:
             list: Una lista de instancias de User que representan a todos los usuarios en la base de datos.
         """
         query = "SELECT * FROM users;"
-        results = connect_to_mysql(query)
+        results = connect_to_mysql().query_db(query)
         users = []
         for user in results:
             users.append(cls(user))
