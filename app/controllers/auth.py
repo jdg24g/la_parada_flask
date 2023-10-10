@@ -68,13 +68,14 @@ def login():
     if request.method == "POST":
         email = request.form["email"]
         password = request.form["password"]
-        # check if email exists in database
         data = {"email": email}
         user = User.get_by_email(data)
-        print(user.first_name)
-        # check if password is correct
         if user == None:
+            print("user is none")
             return redirect(url_for("admin"))
+        # check if email exists in database
+        # check if password is correct
+        
         if email == user.email and bcrypt.check_password_hash(user.password, password):
             session['user'] = {
             "id": user.id,
@@ -102,10 +103,3 @@ def admin():
         return redirect(url_for("dashboard"))
     
     return render_template("auth/index.html")
-
-
-@app.route("/dashboard/")
-def dashboard():
-    if "user" not in session:
-        return redirect(url_for("admin"))
-    return render_template("dashboard/index.html")

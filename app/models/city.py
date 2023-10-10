@@ -57,10 +57,11 @@ class Company:
     def __init__(self, data: dict) -> None:
         self.id = data["id"]
         self.company = data["company"]
+        self.phone = data["phone"]
 
     @classmethod
     def create(cls, data: dict):
-        query = "INSERT INTO companies (company) VALUES (%(company)s);"
+        query = "INSERT INTO companies (company,phone) VALUES (%(company)s,%(phone)s);"
         results = connect_to_mysql().query_db(query, data)
         return results
 

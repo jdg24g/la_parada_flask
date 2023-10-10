@@ -29,10 +29,12 @@ def add_city():
 def add_company():
     if request.method == "POST":
         company = request.form["company"]
+        phone = request.form["phone"]
         if not company:
             return redirect(url_for("dashboard"))
         data = {
-            "company": company
+            "company": company,
+            "phone": phone
         }
         check = Company.check_company(data)
         if check == True:
