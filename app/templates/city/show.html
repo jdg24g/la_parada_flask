@@ -1,4 +1,11 @@
-{% if cities %}
+{% extends "base.html" %}
+{% block title %}Showing {{ cities["city"] }}{% endblock title %}
+{% block header %}
+{% include "dashboard/includes/header.html" %}
+{% endblock header %}
+{% block content %}
+<div class="container-md">
+  {% if cities %}
 <div class="card">
   <div class="card-body">
     <h4 class="card-title">Cities</h4>
@@ -12,20 +19,17 @@
           </tr>
         </thead>
         <tbody class="text-center">
-          {% for city in cities %}
           <tr>
-            <td>{{ city["id"] }}</td>
-            <td>{{ city["city"] }}</td>
+            <td>{{ cities["id"] }}</td>
+            <td>{{ cities["city"] }}</td>
             <td>
               <div class="btn-group btn-group-sm" role="group" aria-label="actions">
-                <a href="/city/show/{{ city["id"] }}" class="btn btn-success"><i class="fa-regular fa-eye"></i></a>
-                <a href="/city/edit/{{ city["id"] }}" class="btn btn-warning"><i class="fa-regular fa-pen-to-square"></i></a>
-                <a href="/city/delete/{{ city["id"] }}" class="btn btn-danger"><i class="fa-solid fa-eraser"></i></a>
+                <a href="/city/edit/{{ cities["id"] }}" class="btn btn-warning"><i class="fa-regular fa-pen-to-square"></i></a>
+                <a href="/city/delete/{{ cities["id"] }}" class="btn btn-danger"><i class="fa-solid fa-eraser"></i></a>
               </div>
             </td>
 
           </tr>
-          {% endfor %}
         </tbody>
       </table>
     </div>
@@ -38,3 +42,5 @@
   </div>
 </div>
 {% endif %}
+</div>
+{% endblock content %}

@@ -45,3 +45,25 @@ def add_company():
             Company.create(data)
 
     return redirect(url_for("dashboard"))
+
+
+@app.route("/city/show/<int:id>")
+def show_city(id):
+    data = {"id":id}
+    city = City.get_by_id(data)
+    return render_template("city/show.html", cities=city)
+
+@app.route("/city/edit/<int:id>", methods=["GET","POST"])
+def edit_city(id):
+    if request.method == "POST":
+        city = request.form["city"]
+        phone = request.form["phone"]
+        data = {
+            "city": city,
+            "phone": phone,
+            "id": id
+        }
+        City.update(data)
+        return redirect(url_for("dashboard"))
+    city = City.get_by_id({"id":id})
+    return render_template("city/edit.html", cities=city)
