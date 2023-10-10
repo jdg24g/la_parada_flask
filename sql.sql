@@ -46,6 +46,7 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `bus_schedule`.`companies` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `company` VARCHAR(255) NULL,
+  `phone` VARCHAR(255) NULL,
   PRIMARY KEY (`id`))
 ENGINE = InnoDB;
 
