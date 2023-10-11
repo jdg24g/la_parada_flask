@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block title %}Showing {{ companies["company"] }}{% endblock title %}
+{% block header %}
+{% include "dashboard/includes/header.html" %}
+{% endblock header %}
+{% block content %}
+<div class="container-md">
+  {% if companies %}
+<div class="card">
+  <div class="card-body">
+    <h4 class="card-title">Cities</h4>
+    <div class="table-responsive-md">
+      <table class="table table-ligth">
+        <thead class="text-center">
+          <tr>
+            <th scope="col">Id</th>
+            <th scope="col">City</th>
+            <th scope="col">Actions</th>
+          </tr>
+        </thead>
+        <tbody class="text-center">
+          <tr>
+            <td>{{ companies["id"] }}</td>
+            <td>{{ companies["company"] }}</td>
+            <td>
+              <div class="btn-group btn-group-sm" role="group" aria-label="actions">
+                <a href="/company/edit/{{ companies["id"] }}" class="btn btn-warning"><i class="fa-regular fa-pen-to-square"></i></a>
+                <a href="/company/delete/{{ companies["id"] }}" class="btn btn-danger"><i class="fa-solid fa-eraser"></i></a>
+              </div>
+            </td>
+
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+{% else %}
+<div class="card">
+  <div class="card-body">
+    <h4 class="card-title text-center">No hay Datos</h4>
+  </div>
+</div>
+{% endif %}
+</div>
+{% endblock content %}

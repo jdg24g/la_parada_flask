@@ -12,6 +12,14 @@
         ><i class="fa-regular fa-circle-left"></i> Volver</a
       >
       {% endif %}
+
+      {% if request.path == '/dashboard/' %}
+      <a class="btn btn-success" href="/add_bus_schedule" role="button"
+        ><i class="fa-solid fa-circle-plus"></i>
+        Schedule</a
+      >
+      {% endif %}
+
       <a class="btn btn-danger" href="/logout" role="button"
         ><i class="fa-solid fa-person-walking-dashed-line-arrow-right"></i>
         Salir</a

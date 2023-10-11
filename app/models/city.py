@@ -67,7 +67,7 @@ class Company:
 
     @classmethod
     def update(cls, data: dict):
-        query = "UPDATE companies SET company=%(company)s WHERE id=%(id)s;"
+        query = "UPDATE companies SET company=%(company)s, phone=%(phone)s WHERE id=%(id)s;"
         results = connect_to_mysql().query_db(query, data)
         return results
 

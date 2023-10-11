@@ -1,0 +1,71 @@
+{% if cities and companies %}
+<div class="container-sm">
+  <div class="row justify-content-center align-items-center g-2 mt-3">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title text-center">Add Bus Schedule</h4>
+          <form action="/add_bus_schedule" method="POST">
+            <div class="mb-3">
+              <label for="company_id" class="form-label">Company</label>
+              <select
+                class="form-select form-select-sm"
+                name="company_id"
+                id="company_id"
+              >
+                <option selected>Select one</option>
+                {% for company in companies %}
+                <option value="{{ company['id'] }}">
+                  {{ company['company'] }}
+                </option>
+                {% endfor %}
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="city_id" class="form-label">Destination</label>
+              <select
+                class="form-select form-select-sm"
+                name="city_id"
+                id="city_id"
+              >
+                <option selected>Select one</option>
+                {% for city in cities %}
+                <option value="{{ city['id'] }}">
+                  {{ city['id'] }} {{ city['city'] }}
+                </option>
+                {% endfor %}
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="schedule" class="form-label">Time</label>
+              <div class="col-sm-2">
+                <input
+                  type="time"
+                  class="form-control"
+                  name="schedule"
+                  id="schedule"
+                />
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% else %}
+<div class="container-sm">
+  <div class="row justify-content-center align-items-center g-2 mt-3">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title text-center">NO HAY DATOS</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endif %}

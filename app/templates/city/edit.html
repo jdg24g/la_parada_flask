@@ -1,0 +1,31 @@
+{% extends "base.html" %} {% block title %}Edit {{ cities["city"] }}{% endblock
+title %} {% block header %} {% include "dashboard/includes/header.html" %} {%
+endblock header %} {% block content %}
+<div class="container-sm">
+  <div class="row justify-content-center align-items-center g-2 mt-3">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Edit City</h4>
+          <form action="/city/edit/{{ cities['id'] }}/" method="POST">
+            <div class="mb-3">
+              <label for="city" class="form-label">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                name="city"
+                id="city"
+                aria-describedby="helpId"
+                placeholder="City Name"
+                value="{{ cities['city'] }}"
+              />
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock content %}
