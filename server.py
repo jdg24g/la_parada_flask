@@ -7,4 +7,4 @@ from app.controllers.cities_company import *
 from app.controllers.bus_schedule import *
 
 if __name__ == '__main__':
-    app.run(debug=True,host='0.0.0.0',port=5000)
+    app.run()
